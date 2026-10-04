@@ -1,0 +1,81 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eq_purchase_advance_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20240927\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-16 05:45+0000\n"
+"PO-Revision-Date: 2025-04-16 05:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: eq_purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:eq_purchase_advance_payment.inherit_view_purchase_view_order_form
+msgid "Adv. Payments"
+msgstr "Avance de paiement"
+
+#. module: eq_purchase_advance_payment
+#. odoo-python
+#: code:addons/eq_purchase_advance_payment/models/purchase.py:0
+#: model:ir.model.fields,field_description:eq_purchase_advance_payment.field_purchase_order__adv_payment_ids
+#: model_terms:ir.ui.view,arch_db:eq_purchase_advance_payment.inherit_view_purchase_view_order_form
+#: model_terms:ir.ui.view,arch_db:eq_purchase_advance_payment.view_purchase_advance_account_payment_form
+msgid "Advance Payment"
+msgstr "Avance de paiement"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model.fields,field_description:eq_purchase_advance_payment.field_purchase_order__adv_payment_count
+msgid "Advance Payment Count"
+msgstr "Nombre de paiements anticipés"
+
+#. module: eq_purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:eq_purchase_advance_payment.view_purchase_advance_account_payment_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model.fields.selection,name:eq_purchase_advance_payment.selection__account_payment__create_in_state_purchase__confirm
+msgid "Confirm"
+msgstr "Confirmé"
+
+#. module: eq_purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:eq_purchase_advance_payment.view_purchase_advance_account_payment_form
+msgid "Create Advance Payment"
+msgstr "Créer une avance de paiement"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model.fields.selection,name:eq_purchase_advance_payment.selection__account_payment__create_in_state_purchase__draft
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model.fields.selection,name:eq_purchase_advance_payment.selection__account_payment__create_in_state_purchase__paid
+msgid "Paid"
+msgstr "Payé"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model.fields,field_description:eq_purchase_advance_payment.field_account_payment__create_in_state_purchase
+msgid "Payment Status "
+msgstr "Statut de paiement"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model,name:eq_purchase_advance_payment.model_account_payment
+msgid "Payments"
+msgstr "Paiements"
+
+#. module: eq_purchase_advance_payment
+#: model:ir.model,name:eq_purchase_advance_payment.model_purchase_order
+msgid "Purchase Order"
+msgstr "Bon de commande fournisseur"
+
+#. module: eq_purchase_advance_payment
+#. odoo-python
+#: code:addons/eq_purchase_advance_payment/models/purchase.py:0
+msgid "The payment amount cannot be negative or zero."
+msgstr "Le montant du paiement ne peut pas être négatif ou nul."

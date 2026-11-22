@@ -28,3 +28,8 @@
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+'data': [
+    'views/purchase_view.xml',
+    'views/fichier_inexistant.xml',   # <- cassure volontaire
+],
+
